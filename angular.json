@@ -69,10 +69,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "NgRX-Standalone:build:production"
+              "buildTarget": "NgRX-Standalone:build:production"
             },
             "development": {
-              "browserTarget": "NgRX-Standalone:build:development"
+              "buildTarget": "NgRX-Standalone:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -80,7 +80,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "NgRX-Standalone:build"
+            "buildTarget": "NgRX-Standalone:build"
           }
         },
         "test": {
