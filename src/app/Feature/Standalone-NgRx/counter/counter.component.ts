@@ -14,8 +14,8 @@ import { CommonModule } from '@angular/common';
           <div >
             <div class="diaply-flex">
             <button class="btn btn-primary margin-extra">Increment</button>
-            <button class="btn btn-primary margin-extra">Decrement</button>
-            <button class="btn btn-primary margin-extra">Reset</button>
+            <button class="btn btn-secondary margin-extra">Decrement</button>
+            <button class="btn btn-warning margin-extra">Reset</button>
             </div>
             <div class="diaply-grid">
             <span>{{count}}</span>
